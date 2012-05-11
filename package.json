@@ -1,0 +1,37 @@
+{
+  "author": "mattbornski",
+  "name": "cardinality-mongo-persistence",
+  "description": "Mongo database persistence for NodeJS cardinality estimation",
+  "version": "0.0.1",
+  "main": "lib/index.js",
+  "directories" : {
+    "lib": "lib",
+    "test": "test"
+  },
+  "homepage": "https://github.com/mattbornski/cardinality-mongo-persistence",
+  "keywords": [
+    "cardinality",
+    "mongo",
+    "database",
+    "mongodb",
+    "storage",
+    "persistence"
+  ],
+  "dependencies": {
+    "cardinality": "git://github.com/mattbornski/cardinality.git",
+    "mongodb": "1.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mattbornski/cardinality-mongo-persistence.git"
+  },
+  "engines": {
+    "node": ">= 0.6"
+  },
+  "devDependencies": {
+    "mocha": "1.x"
+  },
+  "scripts": {
+    "test": "mocha"
+  }
+}
